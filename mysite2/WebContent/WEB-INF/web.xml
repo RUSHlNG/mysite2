@@ -14,6 +14,15 @@
 	
 	<servlet>
 		<servlet-name>
+			BoardController
+		</servlet-name>
+		<servlet-class>
+			com.bigdata2019.mysite.controller.BoardController
+		</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>
 			GuestbookController
 		</servlet-name>
 		<servlet-class>
@@ -33,6 +42,12 @@
 	<servlet-mapping>
 		<servlet-name>MainController</servlet-name>
 		<url-pattern></url-pattern>
+		
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>BoardController</servlet-name>
+		<url-pattern>/board</url-pattern>
 		
 	</servlet-mapping>
 	

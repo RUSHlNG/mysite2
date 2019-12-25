@@ -1,3 +1,8 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+	String no = request.getParameter("no");
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +12,7 @@
 </head>
 <body>
 	<div id="container">
-		<jsp:include page="WEB-INF/views/includes/header.jsp">
+		<jsp:include page="/WEB-INF/views/includes/header.jsp">
 		<div id="content">
 			<div id="guestbook" class="delete-form">
 				<form method="post" action="/guestbook">
@@ -20,8 +25,8 @@
 				<a href="/mysite2/?a=list">방명록리스트</a>
 			</div>
 		</div>
-		<jsp:include page="WEB-INF/views/includes/navigation.jsp">
-		<jsp:include page="WEB-INF/views/includes/footer.jsp">
+		<jsp:include page="/WEB-INF/views/includes/navigation.jsp">
+		<jsp:include page="/WEB-INF/views/includes/footer.jsp">
 	</div>
 </body>
 </html>

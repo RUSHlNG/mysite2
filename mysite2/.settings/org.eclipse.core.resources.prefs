@@ -3,4 +3,5 @@ encoding//WebContent/WEB-INF/views/guestbook/deleteform.jsp=UTF-8
 encoding//WebContent/WEB-INF/views/guestbook/list.jsp=UTF-8
 encoding//WebContent/WEB-INF/views/main/index.jsp=UTF-8
 encoding//WebContent/WEB-INF/views/user/joinsuccess.jsp=UTF-8
+encoding//src/com/bigdata2019/mysite/repository/BoardDao.java=UTF-8
 encoding//src/com/bigdata2019/mysite/repository/UserDao.java=UTF-8

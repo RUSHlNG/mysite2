@@ -17,7 +17,7 @@
 </head>
 <body>
 	<div id="container">
-		<jsp:include page="WEB-INF/views/includes/header.jsp">
+		<jsp:include page="/WEB-INF/views/includes/header.jsp"/>
 		<div id="content">
 			<div id="guestbook">
 				<form action="/guestbook" method="post">
@@ -47,7 +47,7 @@
 								<td>[<%=totalCount-index++ %>]</td>
 								<td><%=vo.getName() %></td>
 								<td><%=vo.getRegDate() %></td>
-								<td><a href="mysite2/?a=deleteform&no=<%=vo.getNo() %>">삭제 </a></td>
+								<td><a href="guestbook/?a=deleteform&no=<%=vo.getNo() %>">삭제 </a></td>
 							</tr>
 							<tr>
 								<td colspan=4>
@@ -64,8 +64,8 @@
 				</ul>
 			</div>
 		</div>
-		<jsp:include page="WEB-INF/views/includes/navigation.jsp">
-		<jsp:include page="WEB-INF/views/includes/footer.jsp">
+		<jsp:include page="/WEB-INF/views/includes/navigation.jsp"/>
+		<jsp:include page="/WEB-INF/views/includes/footer.jsp"/>
 	</div>
 </body>
 </html>
